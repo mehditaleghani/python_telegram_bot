@@ -1,0 +1,22 @@
+
+1 - So for first step we need to make a venv , it help us to build our project better :
+python3 -m venv .venv , for activating we use "source .venv/bin/activate" in terminal
+now you can type "which pytohn3" in terminal to be sure it's activated
+tip : purpose of venv is to installing specefic packages for a specefig project in this 
+way we use a new version of a packages without breaking our old packages
+
+2 - after we made it we gonna do the next step :
+Open telegram and search for @BotFather, start the BotFather and click /newbot
+tip : name should be something like "name" and username should be "name_bot"
+
+3 - This is the token : "8024399259:AAH319oJAVG3YOKzeUo996gd7srLdwD-Jn8"
+it's something, privet and other people "should not see it" !
+how we make token privet ?
+`touch .env`
+`echo "token=8024399259:AAH319oJAVG3YOKzeUo996gd7srLdwD-Jn8" >> .env`
+DONE!
+
+4 - now we need to install the python-telegram-bot library ->
+pip install python-telegram-bot
+
+
